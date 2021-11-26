@@ -1,0 +1,152 @@
+
+ .body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    flex: 1 0 auto;
+  }
+
+  header{
+    width: 100%;
+    height:50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+ 
+  /* color textos */
+  .textos{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+    overflow: hidden;
+    text-align: center;
+  }
+  .textos>h1{font-size:80px; color:white;}
+
+  /* Main */
+  .img{
+    width: 90%;
+    height: 95%;
+    background-color: #000101;
+}
+
+  .contenedor{
+    margin:auto;
+    padding: var(--margenes) 0;
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #941E00;
+  }
+
+  .contenedor1{
+    margin:auto;
+    padding: var(--margenes) 0;
+    width: 98%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #941E00;
+  }
+
+  .contenedor2{
+    margin:auto;
+    padding: var(--margenes) 0;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #941E00;
+  }
+
+  .contenedor3{
+    margin: auto;
+    padding: var(--margenes) 0;
+    width: 95%;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #941E00;
+  }
+
+  .modal2{
+    margin: auto;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .modal3{
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fc6f4c;
+  }
+  
+  .contenedor h4{
+    font-size: var(--titulos);
+    color: #000101;
+    margin-bottom: var(--espacios);
+  }
+   
+  .contenedor h3{
+    font-size: var(--titulos);
+    color: #000101;
+    margin-bottom: var(--espacios);
+  }
+  .contenedor p{
+    font-size: var(--subtitulos);
+    font-weight: 300;
+    color: #000101;
+  }
+
+  /* Footer */
+.footer{
+    background: #ffd9cf;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    width: 90%;
+    text-align: center; 
+}
+.footer1{
+  background: #fc6f4c;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+  width: 90%;
+  height: 20px;
+  text-align: center; 
+  color: #fff;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;  
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #fff;
+    
+}

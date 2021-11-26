@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+<head>
+    <title>Login</title>
+
+    <link rel="stylesheet" type="text/css" href="estilos-log.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content" style="background-color: brown;">
+                <div class="col-12 user-img">
+                    <img src="../../img/user.png"/>
+                </div>
+                <form class="col-12" th:action="@{/login}" method="get">
+                    <div class="form-group" id="user">
+                        <input type="text" class="form-control" placeholder="Nombre de usuario" name="username">
+                    </div>
+                    
+                    <br>
+
+                    <div class="form-group" id="contrasena-group">
+                        <input type="password" class="form-control" placeholder="Contraseña" name="password">
+                    </div>
+                    <br>
+                   <a href="../../usuario/inicio.html" button type="submit" class="btn btn-success"> Ingresar 
+                </form></a>
+                <div class="col-12 forgot">
+                    <a href="rec_contra_usu.html">¿Olvidaste tu contraseña?</a></div>
+                    <div class="col-12 forgot">
+                    <a href="../../registros/usuario/registro-usuario.html">Registro</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

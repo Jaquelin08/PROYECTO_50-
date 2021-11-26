@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+<head>
+    <title>Registrarse</title>
+
+    <link rel="stylesheet" href="estilos-reg.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-20 main-section">
+          <div class="modal-content" style="background-color: brown;">
+                <div class="col-20 user-img">
+                    <img src="../../img/user.png">
+                </div>
+                <form class="col-12">
+                  <div class="form-group" id="user-group">
+
+                    <form class="row g-3">
+                      <div class="col-md-14">
+                        <label for="validationDefault01" class="textos">Nombres</label>
+                        <input type="text" class="form-control" id="validationDefault01" required>
+                      </div>
+
+                      <div class="col-md-14">
+                        <label for="validationDefault02" class="textos">Apellido paterno</label>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                      </div>
+
+                      <div class="col-md-14">
+                        <label for="validationDefault02" class="textos">Apellido materno</label>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                      </div>
+
+                      <div class="col-md-14">
+                        <label for="validationDefault04" class="textos">Edad</label>
+                        <input type="number" class="form-control" required>
+                      </div>
+
+                      <div class="col-md-14">
+                        <label for="validationDefaultUsername" class="textos">Correo electronico</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                          <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                            <select class="form-select" id="validationDefault04" required>
+                              <option selected disabled value=""></option>
+                              <option>hotmail</option>
+                              <option>outlook</option>
+                              <option>gmail</option>
+                              <option>yahoo</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-14">
+                        <label for="validationDefault05" class="textos">Contraseña</label>
+                        <input type="password" class="form-control" id="validationDefault05" required>
+                      </div>
+
+                      <div class="col-md-14">
+                        <label for="validationDefault05" class="textos">Confirmar contraseña</label>
+                        <input type="password" class="form-control" id="validationDefault05" required>
+                      </div>
+
+                      <div class="col-md-14">
+                        <label for="validationDefault03" class="textos">Direccion</label>
+                        <input type="text" class="form-control" id="validationDefault03" required>
+                      </div>
+
+                      <div class="col-md-14">
+                        <label for="validationDefault05" class="textos">Zip</label>
+                        <input type="text" class="form-control" id="validationDefault05" required>
+                      </div><br>
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate">
+                          <h4 class="textos">si eres estudiante marca la casilla</h4>
+                        </label>
+                      </div>
+
+                   <a href="../../inicio_sesion/usuario/login_usu.html" button type="submit" class="btn btn-success">
+                     <i class="fas fa-sign-in-alt"></i> Continuar </button></a>
+					<div class="col-12 forgot">
+                    <a href="../../inicio_sesion/usuario/login_usu.html">¿Ya tienes cuenta? Ingresa aquí</a>
+					</div>
+                </form>
+         </div>
+       </div>
+    </div>
+ </body>
+</html>
+
+

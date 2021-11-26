@@ -1,0 +1,96 @@
+Body{
+    Background: brown;
+}
+
+
+/* Header */
+header{
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+/* Main */
+
+.contenedor{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: bisque;
+  }
+
+.contenedor1{
+    margin: 25px;
+    padding: var(--margenes) 0;
+    width: auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.form{
+    margin: auto;
+    Align-self: left;
+    Display: flex;
+    Flex-direction: column;
+    Flex-wrap: wrap;
+    Align-content: space-around;
+}
+
+.form1{
+    margin: 30px;
+    margin-top: 10px;
+    Align-self: left;
+    Display: flex;
+    Flex-direction: column;
+    Flex-wrap: wrap;
+    Align-content: space-around;
+}
+
+.textos{
+    width: auto;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .textos>h3{font-size:80px; color:white;}
+  
+  .textos>h2{font-size: 30px; font-weight: 300;}
+
+Input{
+    Padding: 12px 20px;
+    Margin: 8px 0;
+    Box-sizing: border-box;
+}
+
+Fieldset{
+    Background: rgb(243, 167, 96);
+}
+
+.refresh{
+ Padding: 8px;
+    Font-size: 15px;
+   Background: yellowgreen;
+   Color: black;
+   Cursor: pointer;
+}
+
+.delete{
+ Padding: 8px;
+    Font-size: 15px;
+ 
+    Background: red;
+    Color: white;
+    Cursor: pointer;
+}
